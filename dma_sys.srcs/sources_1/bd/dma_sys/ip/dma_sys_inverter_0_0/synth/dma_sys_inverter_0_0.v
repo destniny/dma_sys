@@ -48,11 +48,11 @@
 
 
 // IP VLNV: xilinx.com:user:inverter:1.0
-// IP Revision: 3
+// IP Revision: 4
 
 (* X_CORE_INFO = "inverter,Vivado 2017.3.1" *)
 (* CHECK_LICENSE_TYPE = "dma_sys_inverter_0_0,inverter,{}" *)
-(* CORE_GENERATION_INFO = "dma_sys_inverter_0_0,inverter,{x_ipProduct=Vivado 2017.3.1,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=inverter,x_ipVersion=1.0,x_ipCoreRevision=3,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,DATA_WIDTH=32}" *)
+(* CORE_GENERATION_INFO = "dma_sys_inverter_0_0,inverter,{x_ipProduct=Vivado 2017.3.1,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=inverter,x_ipVersion=1.0,x_ipCoreRevision=4,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,DATA_WIDTH=32}" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module dma_sys_inverter_0_0 (
   axi_clk,

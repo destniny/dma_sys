@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../ip_repo/inverter/inverter.srcs/sources_1/new/FPMult_SinglePrecision_Rieee.v" \
+"../../../../../../ip_repo/inverter/inverter.srcs/sources_1/new/inverter.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

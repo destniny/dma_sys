@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.3.1 (win64) Build 2035080 Fri Oct 20 14:20:01 MDT 2017
-| Date         : Sat Jun 27 15:11:05 2020
+| Date         : Sat Jun 27 18:24:14 2020
 | Host         : DESKTOP-6NF1MLH running 64-bit major release  (build 9200)
 | Command      : report_control_sets -file dma_sys_wrapper_control_sets_placed.rpt
 | Design       : dma_sys_wrapper
@@ -21,7 +21,7 @@ Table of Contents
 +-------------------------------+-------+
 |             Status            | Count |
 +-------------------------------+-------+
-| Number of unique control sets |   367 |
+| Number of unique control sets |   368 |
 +-------------------------------+-------+
 
 
@@ -31,12 +31,12 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |            1630 |          463 |
-| No           | No                    | Yes                    |             129 |           42 |
-| No           | Yes                   | No                     |             992 |          357 |
-| Yes          | No                    | No                     |            2103 |          604 |
-| Yes          | No                    | Yes                    |              82 |           18 |
-| Yes          | Yes                   | No                     |            2302 |          663 |
+| No           | No                    | No                     |            1632 |          476 |
+| No           | No                    | Yes                    |             129 |           44 |
+| No           | Yes                   | No                     |             992 |          359 |
+| Yes          | No                    | No                     |            2071 |          598 |
+| Yes          | No                    | Yes                    |              82 |           17 |
+| Yes          | Yes                   | No                     |            2332 |          713 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 

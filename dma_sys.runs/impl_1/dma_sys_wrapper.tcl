@@ -68,13 +68,15 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
+  set_param tcl.collectionResultDisplayLimit 0
+  set_param xicom.use_bs_reader 1
   create_project -in_memory -part xc7z020clg484-1
   set_property board_part em.avnet.com:zed:part0:1.3 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
   set_property webtalk.parent_dir D:/Developer/dma_sys/dma_sys.cache/wt [current_project]
   set_property parent.project_path D:/Developer/dma_sys/dma_sys.xpr [current_project]
-  set_property ip_repo_paths D:/Developer/dmaSystem/ip_repo [current_project]
+  set_property ip_repo_paths D:/Developer/dma_sys/ip_repo [current_project]
   set_property ip_output_repo D:/Developer/dma_sys/dma_sys.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]

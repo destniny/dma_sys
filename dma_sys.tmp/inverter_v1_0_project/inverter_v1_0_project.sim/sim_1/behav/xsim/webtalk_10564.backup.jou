@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.3.1 (64-bit)
+# SW Build 2035080 on Fri Oct 20 14:20:01 MDT 2017
+# IP Build 2034413 on Fri Oct 20 15:56:25 MDT 2017
+# Start of session at: Sat Jun 27 23:20:50 2020
+# Process ID: 10564
+# Current directory: d:/developer/dma_sys/dma_sys.tmp/inverter_v1_0_project/inverter_v1_0_project.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source d:/developer/dma_sys/dma_sys.tmp/inverter_v1_0_project/inverter_v1_0_project.sim/sim_1/behav/xsim/xsim.dir/inverter_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: d:/developer/dma_sys/dma_sys.tmp/inverter_v1_0_project/inverter_v1_0_project.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: d:/developer/dma_sys/dma_sys.tmp/inverter_v1_0_project/inverter_v1_0_project.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source d:/developer/dma_sys/dma_sys.tmp/inverter_v1_0_project/inverter_v1_0_project.sim/sim_1/behav/xsim/xsim.dir/inverter_behav/webtalk/xsim_webtalk.tcl -notrace

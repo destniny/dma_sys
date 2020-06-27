@@ -2,8 +2,8 @@
 # Vivado v2017.3.1 (64-bit)
 # SW Build 2035080 on Fri Oct 20 14:20:01 MDT 2017
 # IP Build 2034413 on Fri Oct 20 15:56:25 MDT 2017
-# Start of session at: Sat Jun 27 15:06:37 2020
-# Process ID: 8092
+# Start of session at: Sat Jun 27 18:20:01 2020
+# Process ID: 4868
 # Current directory: D:/Developer/dma_sys/dma_sys.runs/synth_1
 # Command line: vivado.exe -log dma_sys_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dma_sys_wrapper.tcl
 # Log file: D:/Developer/dma_sys/dma_sys.runs/synth_1/dma_sys_wrapper.vds
