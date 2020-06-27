@@ -89,3 +89,8 @@
 #Readme-files
 #########
 !*.md
+
+#########
+#Screenshots-files
+#########
+!*.PNG

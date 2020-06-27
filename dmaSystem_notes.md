@@ -10,7 +10,7 @@ using DMA to load image data (floating point numbers) from DDR to PL in order to
 
 Notes : Always remember to generate HDL wrapper or error comes with no top level design
 
-![inverter_debug](C:\Users\desti\Desktop\inverter_debug.PNG)
+![inverter_debug](screen_shots\inverter_debug.PNG)
 
 ### v2
 
@@ -36,13 +36,13 @@ Problem:
 
 #### Simulation on Multiplier itself
 
-![ip_works_proff](C:\Users\desti\Desktop\ip_works_proff.PNG)
+![ip_works_proff](screen_shots\ip_works_proff.PNG)
 
 Correct results! : `s_axis_data` as 64-bit input (0.25 * 0.25) gives out the 0.625 on 32-bit `m_axis_data`
 
 #### Test with Zynq system
 
-#### ![floating_point_test_7](C:\Users\desti\Desktop\floating_point_test_7.PNG)
+#### ![floating_point_test_7](screen_shots\floating_point_test_7.PNG)
 
 Current Problems:
 
