@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3.1 (64-bit)
+# SW Build 2035080 on Fri Oct 20 14:20:01 MDT 2017
+# IP Build 2034413 on Fri Oct 20 15:56:25 MDT 2017
+# Start of session at: Sat Jun 27 15:08:02 2020
+# Process ID: 14812
+# Current directory: D:/Developer/dma_sys/dma_sys.runs/impl_1
+# Command line: vivado.exe -log dma_sys_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source dma_sys_wrapper.tcl -notrace
+# Log file: D:/Developer/dma_sys/dma_sys.runs/impl_1/dma_sys_wrapper.vdi
+# Journal file: D:/Developer/dma_sys/dma_sys.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source dma_sys_wrapper.tcl -notrace

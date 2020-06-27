@@ -1,0 +1,194 @@
+#-----------------------------------------------------------
+# Vivado v2017.3.1 (64-bit)
+# SW Build 2035080 on Fri Oct 20 14:20:01 MDT 2017
+# IP Build 2034413 on Fri Oct 20 15:56:25 MDT 2017
+# Start of session at: Sat Jun 27 14:25:15 2020
+# Process ID: 7968
+# Current directory: D:/Developer/dma_sys/dma_sys.runs/dma_sys_axi_smc_1_synth_1
+# Command line: vivado.exe -log dma_sys_axi_smc_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dma_sys_axi_smc_1.tcl
+# Log file: D:/Developer/dma_sys/dma_sys.runs/dma_sys_axi_smc_1_synth_1/dma_sys_axi_smc_1.vds
+# Journal file: D:/Developer/dma_sys/dma_sys.runs/dma_sys_axi_smc_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source dma_sys_axi_smc_1.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 425.637 ; gain = 101.840
+INFO: [Synth 8-638] synthesizing module 'dma_sys_axi_smc_1' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/synth/dma_sys_axi_smc_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'bd_954e' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/synth/bd_954e.v:10]
+INFO: [Synth 8-638] synthesizing module 'clk_map_imp_RKXSA' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/synth/bd_954e.v:949]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_one_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_0/synth/bd_954e_one_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlconstant_v1_1_3_xlconstant' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ipshared/0750/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-256] done synthesizing module 'xlconstant_v1_1_3_xlconstant' (1#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ipshared/0750/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_one_0' (2#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_0/synth/bd_954e_one_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_psr_aclk_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_1/synth/bd_954e_psr_aclk_0.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-638] synthesizing module 'lpf' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'SRL16' [C:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:50689]
+INFO: [Synth 8-256] done synthesizing module 'SRL16' (3#1) [C:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:50689]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (4#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (5#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'sequence_psr' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (6#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (7#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (8#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_psr_aclk_0' (9#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_1/synth/bd_954e_psr_aclk_0.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'clk_map_imp_RKXSA' (10#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/synth/bd_954e.v:949]
+INFO: [Synth 8-638] synthesizing module 'm00_exit_pipeline_imp_1XHGP8X' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/synth/bd_954e.v:999]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_m00e_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_26/synth/bd_954e_m00e_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_m00e_0' (24#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_26/synth/bd_954e_m00e_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'm00_exit_pipeline_imp_1XHGP8X' (25#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/synth/bd_954e.v:999]
+INFO: [Synth 8-638] synthesizing module 'm00_nodes_imp_1B9JJEL' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/synth/bd_954e.v:1370]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_m00arn_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_21/synth/bd_954e_m00arn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base' [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base' (31#1) [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized0' [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized0' (34#1) [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_m00arn_0' (40#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_21/synth/bd_954e_m00arn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_m00awn_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_23/synth/bd_954e_m00awn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_m00awn_0' (41#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_23/synth/bd_954e_m00awn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_m00bn_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_25/synth/bd_954e_m00bn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized1' [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized1' (41#1) [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized2' [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized2' (41#1) [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_m00bn_0' (42#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_25/synth/bd_954e_m00bn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_m00rn_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_22/synth/bd_954e_m00rn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized3' [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized3' (42#1) [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_m00rn_0' (43#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_22/synth/bd_954e_m00rn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_m00wn_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_24/synth/bd_954e_m00wn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized4' [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized4' (43#1) [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized5' [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized5' (43#1) [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_m00wn_0' (44#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_24/synth/bd_954e_m00wn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'm00_nodes_imp_1B9JJEL' (45#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/synth/bd_954e.v:1370]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_m00s2a_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_20/synth/bd_954e_m00s2a_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_m00s2a_0' (47#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_20/synth/bd_954e_m00s2a_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_s00a2s_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_10/synth/bd_954e_s00a2s_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_s00a2s_0' (49#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_10/synth/bd_954e_s00a2s_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 's00_entry_pipeline_imp_XNALZM' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/synth/bd_954e.v:1675]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_s00mmu_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_7/synth/bd_954e_s00mmu_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_s00mmu_0' (53#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_7/synth/bd_954e_s00mmu_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_s00sic_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_9/synth/bd_954e_s00sic_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_s00sic_0' (56#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_9/synth/bd_954e_s00sic_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_s00tr_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_8/synth/bd_954e_s00tr_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_s00tr_0' (59#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_8/synth/bd_954e_s00tr_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 's00_entry_pipeline_imp_XNALZM' (60#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/synth/bd_954e.v:1675]
+INFO: [Synth 8-638] synthesizing module 's00_nodes_imp_U8O348' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/synth/bd_954e.v:1959]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_sarn_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_11/synth/bd_954e_sarn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized6' [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized6' (60#1) [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized7' [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized7' (60#1) [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_sarn_0' (61#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_11/synth/bd_954e_sarn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_srn_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_12/synth/bd_954e_srn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized8' [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized8' (61#1) [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_srn_0' (62#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_12/synth/bd_954e_srn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 's00_nodes_imp_U8O348' (63#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/synth/bd_954e.v:1959]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_s01a2s_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_16/synth/bd_954e_s01a2s_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_s01a2s_0' (64#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_16/synth/bd_954e_s01a2s_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 's01_entry_pipeline_imp_1QRMK1Y' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/synth/bd_954e.v:2090]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_s01mmu_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_13/synth/bd_954e_s01mmu_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_s01mmu_0' (65#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_13/synth/bd_954e_s01mmu_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_s01sic_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_15/synth/bd_954e_s01sic_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_s01sic_0' (66#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_15/synth/bd_954e_s01sic_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_s01tr_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_14/synth/bd_954e_s01tr_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_s01tr_0' (67#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_14/synth/bd_954e_s01tr_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 's01_entry_pipeline_imp_1QRMK1Y' (68#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/synth/bd_954e.v:2090]
+INFO: [Synth 8-638] synthesizing module 's01_nodes_imp_1V4QSVY' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/synth/bd_954e.v:2433]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_sawn_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_17/synth/bd_954e_sawn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_sawn_0' (69#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_17/synth/bd_954e_sawn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_sbn_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_19/synth/bd_954e_sbn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized9' [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized9' (69#1) [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_sbn_0' (70#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_19/synth/bd_954e_sbn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_swn_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_18/synth/bd_954e_swn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized10' [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized10' (72#1) [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_swn_0' (73#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_18/synth/bd_954e_swn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 's01_nodes_imp_1V4QSVY' (74#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/synth/bd_954e.v:2433]
+INFO: [Synth 8-638] synthesizing module 'switchboards_imp_1YCHCS' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/synth/bd_954e.v:2619]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_arsw_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_2/synth/bd_954e_arsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_arsw_0' (77#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_2/synth/bd_954e_arsw_0.sv:57]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_awsw_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_4/synth/bd_954e_awsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_awsw_0' (78#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_4/synth/bd_954e_awsw_0.sv:57]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_bsw_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_6/synth/bd_954e_bsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_bsw_0' (79#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_6/synth/bd_954e_bsw_0.sv:57]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_rsw_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_3/synth/bd_954e_rsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_rsw_0' (80#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_3/synth/bd_954e_rsw_0.sv:57]
+INFO: [Synth 8-638] synthesizing module 'bd_954e_wsw_0' [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_5/synth/bd_954e_wsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e_wsw_0' (81#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/ip/ip_5/synth/bd_954e_wsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'switchboards_imp_1YCHCS' (82#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/synth/bd_954e.v:2619]
+INFO: [Synth 8-256] done synthesizing module 'bd_954e' (83#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/bd_0/synth/bd_954e.v:10]
+INFO: [Synth 8-256] done synthesizing module 'dma_sys_axi_smc_1' (84#1) [d:/Developer/dma_sys/dma_sys.srcs/sources_1/bd/dma_sys/ip/dma_sys_axi_smc_1/synth/dma_sys_axi_smc_1.v:57]
+Finished RTL Elaboration : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 620.781 ; gain = 296.984
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 620.781 ; gain = 296.984
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1354.680 ; gain = 47.496
+Finished Constraint Validation : Time (s): cpu = 00:01:48 ; elapsed = 00:02:16 . Memory (MB): peak = 1354.680 ; gain = 1030.883
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:48 ; elapsed = 00:02:16 . Memory (MB): peak = 1354.680 ; gain = 1030.883
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:48 ; elapsed = 00:02:16 . Memory (MB): peak = 1354.680 ; gain = 1030.883
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:55 ; elapsed = 00:02:24 . Memory (MB): peak = 1354.680 ; gain = 1030.883
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:33 ; elapsed = 00:03:05 . Memory (MB): peak = 1354.680 ; gain = 1030.883
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|Module Name                                                                                                                                                                        | RTL Object                       | Inference      | Size (Depth x Width) | Primitives     | 
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|inst/i_2/\m00_nodes/m00_ar_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                           | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 156             | RAM32M x 26    | 
+|inst/i_2/\m00_nodes/m00_aw_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                           | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 156             | RAM32M x 26    | 
+|inst/i_2/\m00_nodes/m00_b_node/inst /\inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                      | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 19              | RAM32M x 4     | 
+|inst/i_2/\m00_nodes/m00_b_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 6               | RAM32M x 1     | 
+|inst/i_2/\m00_nodes/m00_r_node/inst /\inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                      | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 19              | RAM32M x 4     | 
+|inst/i_2/\m00_nodes/m00_r_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 84              | RAM32M x 14    | 
+|inst/i_2/\m00_nodes/m00_w_node/inst /\inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[1].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory  | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 4 x 1                | RAM16X1D x 1   | 
+|inst/i_2/\m00_nodes/m00_w_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 106             | RAM32M x 18    | 
+|inst/i_2/\s00_nodes/s00_ar_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                           | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 138             | RAM32M x 23    | 
+|inst/i_2/\s00_nodes/s00_r_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 102             | RAM32M x 17    | 
+|inst/i_2/\s01_nodes/s01_aw_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                           | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 138             | RAM32M x 23    | 
+|inst/i_2/\s01_nodes/s01_b_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 24              | RAM32M x 4     | 
+|inst/i_2/\s01_nodes/s01_w_node/inst /\inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                      | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 18              | RAM32M x 3     | 
+|inst/i_2/\s01_nodes/s01_w_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 88              | RAM32M x 15    | 
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:48 ; elapsed = 00:03:21 . Memory (MB): peak = 1354.680 ; gain = 1030.883
+Finished Timing Optimization : Time (s): cpu = 00:02:54 ; elapsed = 00:03:28 . Memory (MB): peak = 1354.680 ; gain = 1030.883
+Finished Technology Mapping : Time (s): cpu = 00:02:59 ; elapsed = 00:03:33 . Memory (MB): peak = 1354.680 ; gain = 1030.883
+Finished IO Insertion : Time (s): cpu = 00:03:00 ; elapsed = 00:03:35 . Memory (MB): peak = 1354.680 ; gain = 1030.883
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:00 ; elapsed = 00:03:35 . Memory (MB): peak = 1354.680 ; gain = 1030.883
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:01 ; elapsed = 00:03:36 . Memory (MB): peak = 1354.680 ; gain = 1030.883
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:01 ; elapsed = 00:03:36 . Memory (MB): peak = 1354.680 ; gain = 1030.883
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:02 ; elapsed = 00:03:37 . Memory (MB): peak = 1354.680 ; gain = 1030.883
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:02 ; elapsed = 00:03:37 . Memory (MB): peak = 1354.680 ; gain = 1030.883
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |    16|
+|2     |LUT1     |   126|
+|3     |LUT2     |   267|
+|4     |LUT3     |   176|
+|5     |LUT4     |   801|
+|6     |LUT5     |   292|
+|7     |LUT6     |   560|
+|8     |MUXF7    |     1|
+|9     |RAM16X1D |     1|
+|10    |RAM32M   |    97|
+|11    |SRL16    |     1|
+|12    |SRLC32E  |    26|
+|13    |FDR      |     4|
+|14    |FDRE     |  2290|
+|15    |FDSE     |    92|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:02 ; elapsed = 00:03:37 . Memory (MB): peak = 1354.680 ; gain = 1030.883
+synth_design: Time (s): cpu = 00:03:09 ; elapsed = 00:03:44 . Memory (MB): peak = 1354.680 ; gain = 1042.406
